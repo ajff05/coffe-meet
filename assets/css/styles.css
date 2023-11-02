@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.fondo-oscuro {
+    background-color: #000f08;
+    color: white;
+}
+
+.fondo-oscuro a {
+    text-decoration: none;
+    color: white;
+}
+
+.fondo-brown {
+    text-align: left;
+    color: white;
+    background-color: #a4452c;
+    padding: 50px;
+    white-space: nowrap;
+}
+
+.hero-section {
+    text-align: right;
+    color: white;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6.25rem 3.125rem 6.25rem 3.125rem;
+}
+
+section, footer {
+    margin-top: 75px;
+}
+
+footer {
+    padding: 50px;
+}
+
+.charla-foto, .charla-texto, .evento {
+    display: inline-block;
+}
+
+.centrado {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.charla-foto {
+    width: 25.5%;
+    vertical-align: middle;
+}
+
+.charla-texto {
+    width: 72%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal;
+}
+
+.evento {
+    width: 30%;
+}
+
+.evento img {
+    width: 75%;
+}
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.subheader, h4, h5 {
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+#ubicacion h2 {
+    margin: 1em auto;
+}
+
+.fondo-brown h3, .fondo-brown h5 {
+    margin-bottom: 0.5em;
+}
+
+#eventos h2 {
+    margin-bottom: 1em;
+}
+
+#eventos h3 {
+    margin: 1em auto;
+}
+
+nav {
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+    vertical-align: middle;
+}
+
+.icono {
+    width: 2rem;
+}
+.icono svg {
+    fill: white;
+}

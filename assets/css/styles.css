@@ -140,3 +140,7 @@ nav ul li {
 .icono svg {
     fill: white;
 }
+
+footer i {
+    margin: 0 0.25em 1em 0.25em;
+}
